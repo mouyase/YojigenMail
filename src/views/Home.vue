@@ -26,7 +26,7 @@
             <el-button type="primary" style="width: 100%;" @click="login">登陆</el-button>
           </div>
           <div style="margin-top: 24px;display: flex;width: 100%;justify-content: flex-end">
-            <el-link>忘记密码？</el-link>
+            <el-link @click="forget">忘记密码？</el-link>
           </div>
         </el-card>
       </div>
@@ -55,7 +55,16 @@ export default {
       this.$alert('账号密码错误', '提示', {
         confirmButtonText: '确定',
         showClose: false,
-        callback: action => {}
+        callback: action => {
+        }
+      });
+    },
+    forget() {
+      this.$alert('请联系信息部管理员重置密码', '提示', {
+        confirmButtonText: '确定',
+        showClose: false,
+        callback: action => {
+        }
       });
     },
   }
