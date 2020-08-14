@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "yarn_serve": "yarn run serve",
+    "yarn_build": "yarn run build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
@@ -15,8 +17,9 @@
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "element-ui": "^2.13.2",
     "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.2",
+    "sass-loader": "^9.0.3",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
