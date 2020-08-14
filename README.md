@@ -1,1 +1,1 @@
-# yojigen.ac.cn
+# YojigenMail
