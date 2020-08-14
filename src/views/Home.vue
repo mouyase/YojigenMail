@@ -32,7 +32,7 @@
       </div>
       <div class="content-footer">
         <div>
-          Copyright（C）2008大兴安岭职业学院 All Rights Reserved
+          Copyright（C）2008 大兴安岭职业学院 All Rights Reserved
         </div>
       </div>
     </div>
